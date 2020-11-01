@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    background-color: #2d4154;
+}
+
+div{
+    background-color: #f8f5f5;
+    margin: 0 auto;
+    max-width: 70%;
+    border: solid rgb(240, 240, 240);
+    box-shadow: 3px 3px 5px 5px #e73b4f;
+    border-radius: 2%;
+    text-align: center;
+    margin-top: 5vh;
+}
+
+form{
+    max-width: 100%;
+    background-color: #f8f5f5;
+}
+
+h2{
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 42px;
+    font-weight: bold;
+    background-color: #f8f5f5;
+}
+p{
+    font-size: 24px;
+    background-color: #f8f5f5;
+}
+a{
+    font-size: 24px;
+    background-color: #f8f5f5;
+}
+input[type=text], input[type=password]{
+    font-size: 28px;
+    max-width: 100%;
+    padding: 2%;
+    margin: 2%;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #e0dede;
+    transition: 0.4s ease;
+    resize: vertical;
+}
+
+input :focus{
+    background-color: rgb(165, 163, 163);
+}
+
+input :hover{
+    transform: translateY(-3px);
+}
+
+button{
+    font-size: 32px;
+    background-color: #5ECBD3;
+    color: white;
+    padding: 2%;
+    margin: 2%;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    opacity: 0.8;
+    transition: 0.4s ease;
+}
+
+button:hover{
+    transform: translateY(-3px);
+    opacity: 1;
+}
+
+@media screen and (max-width: 920px){
+    input[type=text], input[type=password], p, h2, a{
+        font-size: 3vw;
+    }
+}
+
+@media screen and (max-width: 480px){
+    input[type=text], input[type=password], p, h2, a{
+        font-size: 3.5vw;
+    }
+}
+
+@media screen and (max-width:280px ){
+    input[type=text], input[type=password], p, h2, a{
+        font-size: 4vw;
+    }
+}
