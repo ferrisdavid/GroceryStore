@@ -24,10 +24,15 @@ trip ahead of time. We followed a 5-week timeline to complete the project with w
 Technologies Used
 ------------------
 HTML
+
 CSS
+
 Bootstrap
+
 JavaScript/jQuery
+
 PHP
+
 MySQL Database
 
 Contributors
