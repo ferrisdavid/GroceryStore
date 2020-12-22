@@ -25,11 +25,10 @@ Technologies Used
 ------------------
 HTML
 CSS
-JavaScript/jQuery
 Bootstrap
+JavaScript/jQuery
 PHP
 MySQL Database
-
 
 Contributors
 -------------
