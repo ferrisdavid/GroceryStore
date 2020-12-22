@@ -8,6 +8,8 @@ tool with functions such as a store locator for grocery stores of the users choi
 consumers prepare for their needs. Through this project I have been able to develop skills in both front end and back end web development, including languages and frameworks
 such as HTML, CSS, Bootstrap, JavaScript and PHP as well as experience working with a MySQL database in order to store, retrieve, and manipulate user data.
 
+Visit The Grocery Store at: https://dferris.000webhostapp.com/grocery/login/login.php
+
 What is The Grocery Store?
 ---------------------------
 At its core, The Grocery Store is an ecommerce site that allows users to shop for their groceries and various other day to day necessities from the safety of their home during
