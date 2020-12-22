@@ -1,0 +1,25 @@
+
+body{
+    background: #2d4154;
+    font-family: 'Sansita Swashed', cursive;
+}
+
+h2{
+    text-shadow: 1px 1px 8px #e73b4f;
+    color: #ddded6;
+    font-size: xx-large; 
+    text-align:center; 
+    margin-top:5%;
+}
+
+h1{
+    margin-left: 1%;
+    margin-top:5%;
+    text-shadow: 1px 1px 8px #e73b4f;
+    color: #ddded6;
+}
+
+hr{
+    background-color: #ddded6;
+}
+

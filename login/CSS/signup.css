@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
     background-color: #2d4154;
+    font-family: 'Sansita Swashed', cursive;
 }
 
 div{
@@ -20,26 +21,24 @@ form{
 }
 
 h2{
-    font-family: 'Sansita Swashed', cursive;
-    font-size: 32px;
+    font-size: 3vw;
     font-weight: bold;
     background-color: #f8f5f5;
 }
 p{
-    font-size: 14px;
+    font-size: 1vw;
     background-color: #f8f5f5;
 }
 a{
-    font-size: 14px;
+    font-size: 1vw;
     background-color: #f8f5f5;
 }
 input[type=text], input[type=password]{
-    font-size: 18px;
+    font-size: 1.5vw;
     max-width: 100%;
     padding: 1%;
     margin: 1%;
-    border: 2px solid #ccc;
-    border-radius: 4px;
+    border: none;
     background: #d1d1d1;
     transition: 0.4s ease;
     resize: vertical;
@@ -54,7 +53,8 @@ input :hover{
 }
 
 button{
-    font-size: 16px;
+    border-radius: 12px;
+    font-size: 1.5vw;
     background-color: #5ECBD3;
     color: white;
     padding: 2%;
@@ -72,19 +72,55 @@ button:hover{
 }
 
 @media screen and (max-width: 920px){
-    input[type=text], input[type=password], p, h2, a{
+    input[type=text], input[type=password], p, a{
         font-size: 3vw;
+    }
+    h2{
+        font-size: 4vw;
+    }
+    div{
+        max-width: 80%;
+        margin-top: 20%;
+    }
+    button{
+        font-size: 2vw;
+        width: 40%;
+        margin-top: 4%;
+        padding: 3%;
     }
 }
 
 @media screen and (max-width: 480px){
-    input[type=text], input[type=password], p, h2, a{
-        font-size: 3.5vw;
+    input[type=text], input[type=password], p, a{
+        font-size: 4vw;
+    }
+    h2{
+        font-size: 5vw;
+    }
+    div{
+        max-width: 100%;
+        margin-top: 40%;
+    }
+    button{
+        font-size: 3vw;
+        width: 60%;
+        padding: 5%;
     }
 }
 
 @media screen and (max-width:280px ){
-    input[type=text], input[type=password], p, h2, a{
+    input[type=text], input[type=password], p, a{
+        font-size: 5vw;
+    }
+    h2{
+        font-size: 6vw;
+    }
+    div{
+        margin-top: 70%;
+    }
+    button{
         font-size: 4vw;
+        width: 60%;
+        padding: 6%;
     }
 }

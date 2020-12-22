@@ -1,0 +1,207 @@
+body{
+    background-color: #2d4154
+}
+h1{
+    font-family: 'Sansita Swashed', cursive;
+    color: #ddded6;
+    background-color: #5ecbd3;
+    margin-top: 2%;
+    padding-top: 0.8%;
+    text-align: center;
+    font-size: 2vw;
+    border: 1px solid #ddded6;
+    border-radius: 15px;
+    margin-bottom: 5%;
+    box-shadow: 2px 2px 6px 4px #ddded6;
+    text-shadow: 1px 1px 8px  #ddded6;
+}
+h2,h3{
+    font-size: 1.5vw;
+    font-family: 'Sansita Swashed', cursive;
+    color: #ddded6;
+    text-align: left;
+}
+
+.container{
+    text-align: center;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+input[type=text]{
+    font-family: 'Sansita Swashed', cursive;
+    height: 8vh;
+    width: 15%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 1vw;
+    background-color: white;
+    background-image: url('../assets/icons8-apple-64.png');
+    background-position: -6px; 
+    background-repeat: no-repeat;
+    padding-left: 4%;
+    transition: width 0.4s ease-in-out;
+    margin-top: 2%;
+}
+
+input[type=text]:focus{
+    width: 20%;
+}
+
+button{
+    width: 30%;
+    margin-top: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: #5ecbd3;
+    font-size: 1.25vw;
+    font-family: 'Sansita Swashed', cursive;
+    transition: 0.4s ease;
+
+}
+
+button:hover{
+    transform: translateY(-3px);
+    box-shadow: 1px 1px 8px  #ddded6;
+}
+
+input[type=number]{
+    text-align: center;
+    font-size: 1vw;
+    font-family: 'Sansita Swashed', cursive;
+    padding-top: 0.9%;
+    padding-bottom: 0.9%;
+    margin-left: 1%;
+}
+
+label{
+    color: #ddded6;
+    margin-left: 1%;
+}
+
+.groceryitem{
+    color: #ddded6;
+    font-family:'Sansita Swashed', cursive;
+    font-size: 2vw;
+}
+
+@media only screen and (max-width: 1100px){
+    h2,h3{
+        text-align: center;
+        font-size: 2vw;
+    }
+    h1{
+        font-size: 3vw;
+    }
+    input[type=text]{
+        height: 5vh;
+        margin: 0 auto;
+        background-image: none;
+        display: block;
+        width: 40%;
+        text-align: center;
+        font-size: 2vw;
+    }
+    input[type=text]:focus{
+        width: 60%;
+    }
+    input[type=number]{
+        width: 25%;
+        display: block;
+        margin: 0 auto;
+        font-size: 2vw;
+    }
+    button{
+        font-size: 1.75vw;
+        width: 70%;
+        padding: 2%;
+    }
+    .groceryitem{
+        font-size: 2.5vw;
+    }
+}
+
+@media only screen and (max-width: 760px){
+    h2,h3{
+        text-align: center;
+        font-size: 2.5vw;
+    }
+    h1{
+        font-size: 3.5vw;
+    }
+    input[type=text]{
+        height: 6vh;
+        margin: 0 auto;
+        background-image: none;
+        display: block;
+        width: 80%;
+        text-align: center;
+        font-size: 2.5vw;
+    }
+    input[type=text]:focus{
+        width: 100%;
+    }
+    input[type=number]{
+
+        display: block;
+        margin: 0 auto;
+        font-size: 2vw;
+        width: 60%;
+        height: 4vh;
+    }
+    button{
+        font-size: 2.25vw;
+        width: 75%;
+        padding: 2%;
+        height: 9vh;
+    }
+    .container{
+        font-size: 3vw;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    h2,h3{
+        text-align: center;
+        font-size: 5vw;
+    }
+    h1{
+        font-size: 8vw;
+    }
+    input[type=text]{
+        height: 8vh;
+        margin: 0 auto;
+        background-image: none;
+        display: block;
+        width: 100%;
+        text-align: center;
+        font-size: 4vw;
+    }
+    input[type=text]:focus{
+        width: 100%;
+    }
+    input[type=number]{
+        padding: 5%;
+        display: block;
+        margin: 0 auto;
+        font-size: 4vw;
+        width: 80%;
+        height: 4vh;
+    }
+    button{
+        font-size: 4.5vw;
+        width: 75%;
+        padding: 2%;
+        height: 9vh;
+    }
+    .container{
+        font-size: 3vw;
+    }
+    label{
+        font-size: 4.5vw;
+    }
+    .groceryitem{
+        font-size: 4vw;
+    }
+}

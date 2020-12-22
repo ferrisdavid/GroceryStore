@@ -1,0 +1,93 @@
+body {
+    background-color: #2d4154;
+    font-family: 'Sansita Swashed', cursive;
+}
+
+input{
+    margin: 0 auto;
+    width: 50%;
+    padding: 1%;
+    margin: 2%;
+}
+
+p {
+    text-align: center;
+    font-size: 1vw;
+}
+
+h1{
+    font-size: 3vw;
+    margin: 2%;
+}
+
+
+#form{
+    padding: 2%;
+    text-align: center;
+    margin: 0 auto;
+    background-color: white;
+    max-width: 50%;
+    border-radius: 25px;
+    box-shadow: 20px 20px rgba(0,0,0,.15);
+    transition: all .4s ease;
+
+}
+
+#fruit{
+    z-index: -1;
+    height: 50vh;
+}
+
+.Submitbutton{
+
+    padding: 1.5%;
+
+    background-color: #2d4154;
+    
+    color: white;
+    
+    border-radius: 6px;
+    
+    border-color: #0c3d06;
+    
+    width: 25%;
+    
+    font-size: 1vw;
+    
+    
+    }
+
+@media only screen and (max-width: 800px){
+    #form{
+        padding: 4%;
+        max-width: 75%;
+        height: 400px;
+    }
+    .Submitbutton{
+        padding: 2.5%;
+        font-size: 2vw;
+        width: 50%;
+    }
+    h1{
+        font-size: 4vw;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    h1{
+        font-size: 6vw;
+    }
+    p{
+        font-size: 2vw;
+    }
+    #form{
+        padding: 4%;
+        max-width: 100%;
+        height: 400px;
+    }
+    .Submitbutton{
+        padding: 3%;
+        font-size: 3.5vw;
+    }
+}
+
