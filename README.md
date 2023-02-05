@@ -8,7 +8,7 @@ tool with functions such as a store locator for grocery stores of the users choi
 consumers prepare for their needs. Through this project I have been able to develop skills in both front end and back end web development, including languages and frameworks
 such as HTML, CSS, Bootstrap, JavaScript and PHP as well as experience working with a MySQL database in order to store, retrieve, and manipulate user data.
 
-Visit The Grocery Store at: https://dferris.000webhostapp.com/grocery/login/login.php
+Visit The Grocery Store at: https://davidsgrocerystore.000webhostapp.com/grocery/login/login.php
 
 What is The Grocery Store?
 ---------------------------
